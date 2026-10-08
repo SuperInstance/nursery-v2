@@ -1,0 +1,16 @@
+{
+  "trial": "build-a-tool",
+  "child": "keel",
+  "child_version": "v1-minimax-baseline (migrated)",
+  "date": "2026-10-08T06:00:00Z",
+  "input_hash": "sha256:97fccf4d66246bf1ae2d6f5afb38f803103fe85329692c46aba2c01f6237e023",
+  "input_files": ["trials/build-a-tool/input/"],
+  "output_hash": "sha256:backfilled-from-v1-outputs",
+  "score": 8,
+  "max": 10,
+  "scorer": "Muse (subagent) / MiniMax-Text-01",
+  "seed": null,
+  "environment": "v1 trial run, wooden horse / MiniMax",
+  "replayable": true,
+  "notes": "Backfilled during v2 migration from v1 trial records. Input hash computed from v1 inputs; behavioral replay requires v1 code version."
+}

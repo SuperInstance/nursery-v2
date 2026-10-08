@@ -1,0 +1,16 @@
+{
+  "trial": "ask-a-question",
+  "child": "keel",
+  "child_version": "v1-minimax-baseline (migrated)",
+  "date": "2026-10-08T06:00:00Z",
+  "input_hash": "sha256:685bb6c16a54be2786f8990809ffd4fd7243ce66d336cef11f89de54d6e13553",
+  "input_files": ["trials/ask-a-question/input/"],
+  "output_hash": "sha256:backfilled-from-v1-outputs",
+  "score": 9,
+  "max": 10,
+  "scorer": "Muse (subagent) / MiniMax-Text-01",
+  "seed": null,
+  "environment": "v1 trial run, wooden horse / MiniMax",
+  "replayable": true,
+  "notes": "Backfilled during v2 migration from v1 trial records. Input hash computed from v1 inputs; behavioral replay requires v1 code version."
+}

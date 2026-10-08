@@ -1,0 +1,1 @@
+{"constraints":["pure Python, no imports beyond stdlib","handle empty file gracefully"],"description":"Read a text file of numbers (one per line) and print the count, sum, and mean.","name":"tally.py"}

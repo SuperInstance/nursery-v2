@@ -1,0 +1,14 @@
+# Dogfeed log — keel
+
+## Session 1: 2026-10-08 — remember-and-use trial (sandbox)
+Fed three facts through remember(), asked "Whose boat needs a new bilge pump?"
+First version: stopwords included "boat"/"needs"/"new" — chaining failed, answered "I don't know."
+Also: possessive extraction fired on "What color is the Northlight?" — answered "Elena's" (hallucination).
+Fixed: narrowed stopwords to articles/copulas, gated possessive logic on "whose" questions.
+After fix: "Elena's" on the real question, "I don't know." on the color question. All pass.
+
+## Session 2: 2026-10-08 — build-a-tool trial (sandbox)
+Called make_with_voice() with the tally.py spec.
+First output: markdown fences, hardcoded 'numbers.txt', ZeroDivisionError on empty file.
+Fixed prompt: raw Python only, argv filename, explicit empty-file handling instruction.
+Second output: clean Python, handles normal/empty/bad-input/missing-file. Verified by running all four.

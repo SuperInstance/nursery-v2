@@ -1,0 +1,16 @@
+{
+  "trial": "remember-and-use",
+  "child": "keel",
+  "child_version": "v1-minimax-baseline (migrated)",
+  "date": "2026-10-08T06:00:00Z",
+  "input_hash": "sha256:e1cc2bb78ed4303eda1247337a56f4c8c8e4d1d7269d97d7c4d11ba1094aee6d",
+  "input_files": ["trials/remember-and-use/input/"],
+  "output_hash": "sha256:backfilled-from-v1-outputs",
+  "score": 10,
+  "max": 10,
+  "scorer": "Muse (subagent) / MiniMax-Text-01",
+  "seed": null,
+  "environment": "v1 trial run, wooden horse / MiniMax",
+  "replayable": true,
+  "notes": "Backfilled during v2 migration from v1 trial records. Input hash computed from v1 inputs; behavioral replay requires v1 code version."
+}
